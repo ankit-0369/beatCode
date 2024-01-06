@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatCode</title>
+    <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav-bar">
+            <div class="left-part">
+
+                <div class="problems">
+                    <a href="#">Problems</a>
+                </div>
+                <div class="courses">
+                    <a href="#">courses</a>
+                </div>
+                <div class="jobs"><a href="#">jobs</a></div>
+                <div class="events">
+                    <a href="#"> Events<i class="fa-solid fa-angle-down" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="potd"><a href="#">POTD</a></div>
+
+            </div>
+            <div class="logo">
+                <a href="./index.html">
+                    <h1 class="logo-text">BC</h1>
+                </a>
+            </div>
+            <div class="right-part">
+                <div class="score">
+                    <i class="fa-solid fa-bolt-lightning" style="color: #ffffff;"></i>
+                    320
+                </div>
+                <div class="theme-change">
+                    <i class="fa-solid fa-sun" style="color: #ffffff;"></i>
+                </div>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                </div>
+                <div class="bell">
+                    <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+                </div>
+                <div class="user">
+                    <!-- <i class="fa-regular fa-user"></i> -->
+                    <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-section">
+            <div class="main-left-part">
+                <div class="left-heading">
+                    <div class="problem-section hover-bhagva">
+                        <i class="fa-solid fa-code"></i>Problem
+                    </div>
+                    <div class="editorial hover-bhagva"><i class="fa-solid fa-book"></i>Editorial</div>
+                    <div class="submissions hover-bhagva"><i class="fa-solid fa-list-check"></i>submissions</div>
+                    <div class="comments hover-bhagva"><i class="fa-regular fa-comments"></i>Comments</div>
+
+                </div>
+
+                <div class="left-content">
+                    <div class="content-head">
+                        <div class="problem-head">
+                            <div class="problem-text"> Sum Tree</div>
+                            <div class="icon">
+                                <i class="fa-solid fa-book-bookmark bookmark"></i>
+                            </div>
+                        </div>
+
+                        <div class="report-question">
+                            Report<i class="fa-solid fa-bug"></i>
+                        </div>
+                    </div>
+
+                    <div class="problem-desc">
+                        <div class="problem-statement">
+                            Given a Binary Tree. Return true if, for every node X in the tree other than the leaves, its
+                            value is equal to the sum of its left subtree's value and its right subtree's value. Else
+                            return false.
+                            <br><br>
+                            An empty tree is also a Sum Tree as the sum of an empty tree can be considered to be 0. A
+                            leaf node is also considered a Sum Tree.
+                        </div>
+
+                        <div class="examples">
+
+                            <!-- No of examples -->
+
+                            <div class="ex1">
+                                <div class="text">Example-1:</div>
+                                <div class="ex-box">
+                                    <div class="input">
+                                        <div class="text">Input:</div>
+                                        <div class="input-data">S = AAA</div>
+                                    </div>
+                                    <div class="output">
+                                        <div class="text">Output: </div>
+                                        <div class="output-data">
+                                            AAA AAA AAA AAA AAA AAA
+                                        </div>
+
+                                    </div>
+
+                                    <div class="explaination">
+                                        <div class="text">explaination: </div>
+                                        <div class="explaination-data">
+                                            There are total 6 permutations, as given in the output.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="ex1">
+                                <div class="text">Example-1:</div>
+                                <div class="ex-box">
+                                    <div class="input">
+                                        <div class="text">Input:</div>
+                                        <div class="input-data">S = AAA</div>
+                                    </div>
+                                    <div class="output">
+                                        <div class="text">Output: </div>
+                                        <div class="output-data">
+                                            AAA AAA AAA AAA AAA AAA
+                                        </div>
+
+                                    </div>
+
+                                    <div class="explaination">
+                                        <div class="text">explaination: </div>
+                                        <div class="explaination-data">
+                                            There are total 6 permutations, as given in the output.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="ex1">
+                                <div class="text">Example-1:</div>
+                                <div class="ex-box">
+                                    <div class="input">
+                                        <div class="text">Input:</div>
+                                        <div class="input-data">S = AAA</div>
+                                    </div>
+                                    <div class="output">
+                                        <div class="text">Output: </div>
+                                        <div class="output-data">
+                                            AAA AAA AAA AAA AAA AAA
+                                        </div>
+
+                                    </div>
+
+                                    <div class="explaination">
+                                        <div class="text">explaination: </div>
+                                        <div class="explaination-data">
+                                            There are total 6 permutations, as given in the output.
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias itaque,
+                                            voluptatibus consequuntur maxime fugit quibusdam! Vitae quo a eaque
+                                            accusamus illum laborum ducimus fugit asperiores obcaecati, vel assumenda
+                                            voluptatum explicabo dolorem eveniet quae optio facere error, tempore harum
+                                            impedit est.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-right-part">
+
+                <div class="main-right-head">
+                    <div class="compiler-left">
+                        <div class="lang">
+                            c++
+                        </div>
+                        <div class="timer">
+                          <div class="start">
+                            start Timer <i class="fa-regular fa-clock" style="color: #fbb00e;"></i>
+                          </div>
+                            <button id="pause">Pause</button>
+                        </div>
+                    </div>
+
+                    <div class="compiler-right">
+                        <div class="copy-icon">
+                            <i class="fa-solid fa-copy " style="color: #87b0f7;"></i>
+                        </div>
+                        <div class="restore-icon">
+                            <i class="fa-solid fa-arrows-rotate" style="color: #87b0f7;"></i>
+                        </div>
+
+                        <div class="setting">
+                            <i class="fa-solid fa-gear" style="color: #87b0f7;"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-right-body">
+                    <div class="code-section" contenteditable="true">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas fugiat sint vel illo deserunt?
+                        Quasi
+                        voluptates saepe officia veritatis magnam atque dignissimos error ad quae? Quidem suscipit magni
+                        eaque tenetur itaque maiores dolor aut similique repellat quisquam nemo, maxime quo modi unde
+                        porro
+                        ea? Corporis vitae quaerat suscipit illo veritatis.
+                    </div>
+                    <div class="code-run-section">
+                        <div class="compile">
+                            Compile & Run
+                        </div>
+                        <div class="submit">
+                            Submit
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
